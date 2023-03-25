@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/listing": {
+      "name": "/listing",
+      "lambdaFunction": "cloudrentalapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
