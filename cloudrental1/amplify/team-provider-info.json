@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudrental-staging-142640-authRole",
+      "UnauthRoleArn": "arn:aws:iam::024614899471:role/amplify-cloudrental-staging-142640-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::024614899471:role/amplify-cloudrental-staging-142640-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-cloudrental-staging-142640-deployment",
+      "UnauthRoleName": "amplify-cloudrental-staging-142640-unauthRole",
+      "StackName": "amplify-cloudrental-staging-142640",
+      "StackId": "arn:aws:cloudformation:us-west-2:024614899471:stack/amplify-cloudrental-staging-142640/935164e0-bf4f-11ed-a32c-0695b90a4f27",
+      "AmplifyAppId": "d2ojfv47ci0j02"
+    }
+  }
+}

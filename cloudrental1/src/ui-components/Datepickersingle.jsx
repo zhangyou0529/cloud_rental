@@ -1,0 +1,3837 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+/* eslint-disable */
+import * as React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Icon, Text, View } from "@aws-amplify/ui-react";
+export default function Datepickersingle(props) {
+  const { overrides, ...rest } = props;
+  return (
+    <View
+      width="1440px"
+      height="435px"
+      display="block"
+      gap="unset"
+      alignItems="unset"
+      justifyContent="unset"
+      position="relative"
+      padding="0px 0px 0px 0px"
+      {...getOverrideProps(overrides, "Datepickersingle")}
+      {...rest}
+    >
+      <View
+        padding="0px 0px 0px 0px"
+        width="1440px"
+        height="435px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0%"
+        bottom="0%"
+        left="0%"
+        right="0%"
+        {...getOverrideProps(overrides, "Full width box")}
+      >
+        <View
+          width="1440px"
+          height="435px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          overflow="hidden"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
+          borderRadius="22px"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(overrides, "Split box")}
+        >
+          <View
+            width="720px"
+            height="435px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="720px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(31,31,31,1)"
+            {...getOverrideProps(overrides, "Dark theme bg")}
+          ></View>
+          <View
+            width="720px"
+            height="435px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(249,249,249,1)"
+            {...getOverrideProps(overrides, "Light theme bg")}
+          ></View>
+        </View>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="316px"
+        height="329px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="17.47%"
+        bottom="6.9%"
+        left="64.03%"
+        right="14.03%"
+        {...getOverrideProps(overrides, "Group 625788")}
+      >
+        <View
+          width="316px"
+          height="329px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
+          borderRadius="4px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(14,16,18,1)"
+          {...getOverrideProps(overrides, "Rectangle 54161175")}
+        ></View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="260px"
+          height="274px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="6.38%"
+          bottom="10.33%"
+          left="8.86%"
+          right="8.86%"
+          {...getOverrideProps(overrides, "Group 625787161174")}
+        >
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="0%"
+            right="85.38%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161046")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Mo"
+              {...getOverrideProps(overrides, "Mo161045")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(143,159,181,1)"
+            borderRadius="3px"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161150")}
+          >
+            <View
+              width="36px"
+              height="36px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              overflow="hidden"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              {...getOverrideProps(overrides, "cil:arrow-bottom161169")}
+            >
+              <Icon
+                width="14px"
+                height="24px"
+                viewBox={{ minX: 0, minY: 0, width: 24, height: 14 }}
+                paths={[
+                  {
+                    d: "M12.8235 16.1128L7.83189 20.9277L7.83189 0L6.168 0L6.168 20.9276L1.17653 16.1128L0 17.2477L7 24L14 17.2477L12.8235 16.1128Z",
+                    fill: "rgba(143,159,181,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="16.67%"
+                bottom="16.67%"
+                left="30.56%"
+                right="30.56%"
+                {...getOverrideProps(overrides, "Vector161170")}
+              ></Icon>
+            </View>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(143,159,181,1)"
+            borderRadius="3px"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161171")}
+          >
+            <View
+              width="36px"
+              height="36px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              overflow="hidden"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              {...getOverrideProps(overrides, "cil:arrow-bottom161172")}
+            >
+              <Icon
+                width="14px"
+                height="24px"
+                viewBox={{ minX: 0, minY: 0, width: 24, height: 14 }}
+                paths={[
+                  {
+                    d: "M12.8235 16.1128L7.83189 20.9277L7.83189 0L6.168 0L6.168 20.9276L1.17653 16.1128L0 17.2477L7 24L14 17.2477L12.8235 16.1128Z",
+                    fill: "rgba(143,159,181,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="83.33%"
+                bottom="-50%"
+                left="69.44%"
+                right="-8.33%"
+                transformOrigin="top left"
+                transform="rotate(180deg)"
+                {...getOverrideProps(overrides, "Vector161173")}
+              ></Icon>
+            </View>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161075")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="6"
+              {...getOverrideProps(overrides, "6161076")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161103")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="20"
+              {...getOverrideProps(overrides, "20161104")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="0%"
+            right="85.38%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161061")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="29"
+              {...getOverrideProps(overrides, "29161062")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161077")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="13"
+              {...getOverrideProps(overrides, "13161078")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161105")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="27"
+              {...getOverrideProps(overrides, "27161106")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="42.69%"
+            right="42.69%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161053")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Th"
+              {...getOverrideProps(overrides, "Th161054")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="146px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="21.92%"
+            right="21.92%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161154")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="December 2021 "
+              {...getOverrideProps(overrides, "December 2021161155")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161079")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="9"
+              {...getOverrideProps(overrides, "9161080")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161107")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="23"
+              {...getOverrideProps(overrides, "23161108")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161063")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="2"
+              {...getOverrideProps(overrides, "2161064")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161081")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="16"
+              {...getOverrideProps(overrides, "16161082")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161109")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="30"
+              {...getOverrideProps(overrides, "30161110")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="14.23%"
+            right="71.15%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161048")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Tu"
+              {...getOverrideProps(overrides, "Tu161049")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161083")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="7"
+              {...getOverrideProps(overrides, "7161084")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161111")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="21"
+              {...getOverrideProps(overrides, "21161112")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="14.23%"
+            right="71.15%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161065")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="30"
+              {...getOverrideProps(overrides, "30161066")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161085")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="14"
+              {...getOverrideProps(overrides, "14161086")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161113")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="28"
+              {...getOverrideProps(overrides, "28161114")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="56.92%"
+            right="28.46%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161055")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Fr"
+              {...getOverrideProps(overrides, "Fr161056")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161087")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="10"
+              {...getOverrideProps(overrides, "10161088")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161115")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="24"
+              {...getOverrideProps(overrides, "24161116")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161067")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="3"
+              {...getOverrideProps(overrides, "3161068")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161089")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="17"
+              {...getOverrideProps(overrides, "17161090")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161117")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="31"
+              {...getOverrideProps(overrides, "31161118")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="28.46%"
+            right="56.92%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161051")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="We"
+              {...getOverrideProps(overrides, "We161052")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161091")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="8"
+              {...getOverrideProps(overrides, "8161092")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161119")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="22"
+              {...getOverrideProps(overrides, "22161120")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161069")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="1"
+              {...getOverrideProps(overrides, "1161070")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161093")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="15"
+              {...getOverrideProps(overrides, "15161094")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161121")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="29"
+              {...getOverrideProps(overrides, "29161122")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="71.15%"
+            right="14.23%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161057")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Sa"
+              {...getOverrideProps(overrides, "Sa161058")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161095")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="11"
+              {...getOverrideProps(overrides, "11161096")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161123")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="25"
+              {...getOverrideProps(overrides, "25161124")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161071")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="4"
+              {...getOverrideProps(overrides, "4161072")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161097")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="18"
+              {...getOverrideProps(overrides, "18161098")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="71.15%"
+            right="14.23%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161125")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="1"
+              {...getOverrideProps(overrides, "1161126")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="85.38%"
+            right="0%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161059")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Su"
+              {...getOverrideProps(overrides, "Su161060")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161099")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="12"
+              {...getOverrideProps(overrides, "12161100")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161127")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="26"
+              {...getOverrideProps(overrides, "26161128")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161073")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="5"
+              {...getOverrideProps(overrides, "5161074")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(143,159,181,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161101")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="19"
+              {...getOverrideProps(overrides, "19161102")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="85.38%"
+            right="0%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161129")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(160,170,186,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="2"
+              {...getOverrideProps(overrides, "2161130")}
+            ></Text>
+          </Flex>
+        </View>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="316px"
+        height="329px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="17.01%"
+        bottom="7.36%"
+        left="14.03%"
+        right="64.03%"
+        {...getOverrideProps(overrides, "Group 625789")}
+      >
+        <View
+          width="316px"
+          height="329px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
+          border="1px SOLID rgba(226,226,226,1)"
+          borderRadius="4px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 54161278")}
+        ></View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="260px"
+          height="274px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="6.38%"
+          bottom="10.33%"
+          left="8.86%"
+          right="8.86%"
+          {...getOverrideProps(overrides, "Group 625787161279")}
+        >
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="0%"
+            right="85.38%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161280")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Mo"
+              {...getOverrideProps(overrides, "Mo161281")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(226,226,226,1)"
+            borderRadius="3px"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161282")}
+          >
+            <View
+              width="36px"
+              height="36px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              overflow="hidden"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              {...getOverrideProps(overrides, "cil:arrow-bottom161283")}
+            >
+              <Icon
+                width="14px"
+                height="24px"
+                viewBox={{ minX: 0, minY: 0, width: 24, height: 14 }}
+                paths={[
+                  {
+                    d: "M12.8235 16.1128L7.83189 20.9277L7.83189 0L6.168 0L6.168 20.9276L1.17653 16.1128L0 17.2477L7 24L14 17.2477L12.8235 16.1128Z",
+                    fill: "rgba(226,226,226,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="16.67%"
+                bottom="16.67%"
+                left="30.56%"
+                right="30.56%"
+                {...getOverrideProps(overrides, "Vector161284")}
+              ></Icon>
+            </View>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(226,226,226,1)"
+            borderRadius="3px"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161285")}
+          >
+            <View
+              width="36px"
+              height="36px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              overflow="hidden"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              {...getOverrideProps(overrides, "cil:arrow-bottom161286")}
+            >
+              <Icon
+                width="14px"
+                height="24px"
+                viewBox={{ minX: 0, minY: 0, width: 24, height: 14 }}
+                paths={[
+                  {
+                    d: "M12.8235 16.1128L7.83189 20.9277L7.83189 0L6.168 0L6.168 20.9276L1.17653 16.1128L0 17.2477L7 24L14 17.2477L12.8235 16.1128Z",
+                    fill: "rgba(226,226,226,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="83.33%"
+                bottom="-50%"
+                left="69.44%"
+                right="-8.33%"
+                transformOrigin="top left"
+                transform="rotate(180deg)"
+                {...getOverrideProps(overrides, "Vector161287")}
+              ></Icon>
+            </View>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161288")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="6"
+              {...getOverrideProps(overrides, "6161289")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161290")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="20"
+              {...getOverrideProps(overrides, "20161291")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="0%"
+            right="85.38%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161292")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="29"
+              {...getOverrideProps(overrides, "29161293")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161294")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="13"
+              {...getOverrideProps(overrides, "13161295")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="0%"
+            right="85.38%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161296")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="27"
+              {...getOverrideProps(overrides, "27161297")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="42.69%"
+            right="42.69%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161298")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Th"
+              {...getOverrideProps(overrides, "Th161299")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="146px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="0%"
+            bottom="86.13%"
+            left="21.92%"
+            right="21.92%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161300")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="December 2021 "
+              {...getOverrideProps(overrides, "December 2021161301")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161302")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="9"
+              {...getOverrideProps(overrides, "9161303")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161304")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="23"
+              {...getOverrideProps(overrides, "23161305")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161306")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="2"
+              {...getOverrideProps(overrides, "2161307")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161308")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="16"
+              {...getOverrideProps(overrides, "16161309")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="42.69%"
+            right="42.69%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161310")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="30"
+              {...getOverrideProps(overrides, "30161311")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="14.23%"
+            right="71.15%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161312")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Tu"
+              {...getOverrideProps(overrides, "Tu161313")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161314")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="7"
+              {...getOverrideProps(overrides, "7161315")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161316")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="21"
+              {...getOverrideProps(overrides, "21161317")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="14.23%"
+            right="71.15%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161318")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="30"
+              {...getOverrideProps(overrides, "30161319")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161320")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="14"
+              {...getOverrideProps(overrides, "14161321")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="14.23%"
+            right="71.15%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161322")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="28"
+              {...getOverrideProps(overrides, "28161323")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="56.92%"
+            right="28.46%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161324")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Fr"
+              {...getOverrideProps(overrides, "Fr161325")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161326")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="10"
+              {...getOverrideProps(overrides, "10161327")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161328")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="24"
+              {...getOverrideProps(overrides, "24161329")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161330")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="3"
+              {...getOverrideProps(overrides, "3161331")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161332")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="17"
+              {...getOverrideProps(overrides, "17161333")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="56.92%"
+            right="28.46%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161334")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="31"
+              {...getOverrideProps(overrides, "31161335")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="28.46%"
+            right="56.92%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161336")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="We"
+              {...getOverrideProps(overrides, "We161337")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161338")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="8"
+              {...getOverrideProps(overrides, "8161339")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161340")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="22"
+              {...getOverrideProps(overrides, "22161341")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161342")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="1"
+              {...getOverrideProps(overrides, "1161343")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161344")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="15"
+              {...getOverrideProps(overrides, "15161345")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="28.46%"
+            right="56.92%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161346")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="29"
+              {...getOverrideProps(overrides, "29161347")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="71.15%"
+            right="14.23%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161348")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Sa"
+              {...getOverrideProps(overrides, "Sa161349")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161350")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="11"
+              {...getOverrideProps(overrides, "11161351")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161352")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="25"
+              {...getOverrideProps(overrides, "25161353")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161354")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="4"
+              {...getOverrideProps(overrides, "4161355")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="71.15%"
+            right="14.23%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161356")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="18"
+              {...getOverrideProps(overrides, "18161357")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="71.15%"
+            right="14.23%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161358")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="1"
+              {...getOverrideProps(overrides, "1161359")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="18.61%"
+            bottom="67.52%"
+            left="85.38%"
+            right="0%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161360")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="12px"
+              fontWeight="600"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Su"
+              {...getOverrideProps(overrides, "Su161361")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="45.62%"
+            bottom="40.51%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161362")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="12"
+              {...getOverrideProps(overrides, "12161363")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="72.63%"
+            bottom="13.5%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161364")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="26"
+              {...getOverrideProps(overrides, "26161365")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="32.12%"
+            bottom="54.01%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161366")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="5"
+              {...getOverrideProps(overrides, "5161367")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="59.12%"
+            bottom="27.01%"
+            left="85.38%"
+            right="0%"
+            border="1px SOLID rgba(226,226,226,1)"
+            padding="9px 9px 9px 9px"
+            {...getOverrideProps(overrides, "numb161368")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="19"
+              {...getOverrideProps(overrides, "19161369")}
+            ></Text>
+          </Flex>
+          <Flex
+            gap="10px"
+            direction="column"
+            width="38px"
+            height="38px"
+            justifyContent="center"
+            alignItems="center"
+            position="absolute"
+            top="86.13%"
+            bottom="0%"
+            left="85.38%"
+            right="0%"
+            padding="10px 10px 10px 10px"
+            {...getOverrideProps(overrides, "numb161370")}
+          >
+            <Text
+              fontFamily="Open Sans"
+              fontSize="14px"
+              fontWeight="700"
+              color="rgba(96,96,96,1)"
+              lineHeight="16px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="unset"
+              height="unset"
+              gap="unset"
+              alignItems="unset"
+              shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="2"
+              {...getOverrideProps(overrides, "2161371")}
+            ></Text>
+          </Flex>
+        </View>
+      </View>
+      <View
+        width="250px"
+        height="32px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="10.11%"
+        bottom="82.53%"
+        left="63.96%"
+        right="18.68%"
+        borderRadius="4px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Dropdown / Dropdown161039")}
+      >
+        <View
+          width="245px"
+          height="30px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="1px"
+          bottom="1px"
+          left="1px"
+          right="4px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(14,16,18,1)"
+          {...getOverrideProps(overrides, "Base161040")}
+        ></View>
+        <Text
+          fontFamily="Open Sans"
+          fontSize="14px"
+          fontWeight="400"
+          color="rgba(160,170,186,1)"
+          lineHeight="20px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="229px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="calc(50% - 10px - 1px)"
+          left="12px"
+          right="9px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="05/10/2021"
+          {...getOverrideProps(overrides, "Text161041")}
+        ></Text>
+        <View
+          width="245px"
+          height="1px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="30px"
+          left="1px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(143,159,181,1)"
+          {...getOverrideProps(overrides, "Rectangle 1161042")}
+        ></View>
+        <Text
+          fontFamily="Open Sans"
+          fontSize="12px"
+          fontWeight="400"
+          color="rgba(14,16,18,1)"
+          lineHeight="12px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="12px"
+          height="12px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="calc(50% - 6px - 0px)"
+          right="-182px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children=""
+          {...getOverrideProps(overrides, "ChevronDownMed161043")}
+        ></Text>
+      </View>
+      <View
+        width="250px"
+        height="32px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="10.11%"
+        bottom="82.53%"
+        left="13.96%"
+        right="68.68%"
+        borderRadius="4px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Dropdown / Dropdown161372")}
+      >
+        <View
+          width="245px"
+          height="30px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="1px"
+          bottom="1px"
+          left="1px"
+          right="4px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Base161373")}
+        ></View>
+        <Text
+          fontFamily="Open Sans"
+          fontSize="14px"
+          fontWeight="400"
+          color="rgba(96,96,96,1)"
+          lineHeight="20px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="229px"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="calc(50% - 10px - 1px)"
+          left="12px"
+          right="9px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="05/10/2021"
+          {...getOverrideProps(overrides, "Text161374")}
+        ></Text>
+        <View
+          width="245px"
+          height="1px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="30px"
+          left="1px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(226,226,226,1)"
+          {...getOverrideProps(overrides, "Rectangle 1161375")}
+        ></View>
+        <Text
+          fontFamily="Open Sans"
+          fontSize="12px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="12px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="12px"
+          height="12px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="calc(50% - 6px - 0px)"
+          right="-182px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children=""
+          {...getOverrideProps(overrides, "ChevronDownMed161376")}
+        ></Text>
+      </View>
+    </View>
+  );
+}

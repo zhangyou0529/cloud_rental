@@ -1,0 +1,26 @@
+type Customer @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  age: Int
+  num_fam: String
+  occupation: String
+}
+
+type Factors @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  location: Float
+  facilities: Float
+  size: Float
+  amenities: Float
+  idn: Listing1 @hasOne
+}
+
+type Listing1 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String
+  price: String
+  location: String
+  size: String
+  address: String
+  image_url: String
+}
+ 
