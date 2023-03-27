@@ -16,6 +16,7 @@ pandas = "*"
 pickle-mixin = "*"
 pipenv = "*"
 flask = "*"
+virtualenvwrapper = "*"
 
 [requires]
 python_version = "3.8"
