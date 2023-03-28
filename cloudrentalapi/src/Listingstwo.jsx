@@ -30,23 +30,23 @@ class Listing1 {
 
 export default function Listingstwo(props) {
 
-  const [listings, setList] = useState([])
+  const {items: itemsProp, overrideItems, overrides, ...rest } = props;
+  const [items, setItems] = React.useState([])
   useEffect(() => {
     fetch('/ranking-page-store')
       .then(response => response.json())
       .then(data => {
-        const listings = data.map(item => new Listing1(item.id, item.location, item.address, item.price, item.image_url, item.bedrooms, item.bathrooms, item.size, item.Name));
-        setList(listings);
+        const items = data.map(item => new Listing1(item.id, item.location, item.address, item.price, item.image_url, item.bedrooms, item.bathrooms, item.size, item.Name));
+        setItems(items);
       })
       .catch(error => console.error(error))
-    }, [])
+    }, []);
 
-  const { items: itemsProp, overrideItems, overrides, ...rest } = props;
-  const [items, setItems] = React.useState(undefined);
   const itemsDataStore = useDataStoreBinding({
     type: "collection",
     model: Listing1,
   }).items;
+
   React.useEffect(() => {
     if (itemsProp !== undefined) {
       setItems(itemsProp);
@@ -54,6 +54,7 @@ export default function Listingstwo(props) {
     }
     setItems(itemsDataStore);
   }, [itemsProp, itemsDataStore]);
+
   return (
     <Collection
       type="list"

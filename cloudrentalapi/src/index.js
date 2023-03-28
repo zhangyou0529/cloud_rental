@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from 'react-router-dom';
 
-import { studioTheme } from './ui-components'
+import { studioTheme } from '.'
 
 import config from './aws-exports'
 import { Amplify } from 'aws-amplify'

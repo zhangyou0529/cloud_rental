@@ -18,7 +18,7 @@ export default function MyForm() {
       .catch((error) => {
         console.log(error);
       });
-      axios.post("/loadingfactors-store", formData)
+    axios.post("/loadingfactors-store", formData)
       .then((response) => {
         console.log(response);
       })
