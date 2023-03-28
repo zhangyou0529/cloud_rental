@@ -1,6 +1,6 @@
 from flask_cors import CORS
 import awsgi
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template, redirect
 from sqlalchemy import create_engine
 import boto3
 import os
@@ -27,7 +27,8 @@ client =
 TABLE = 
 
 
-@app.route('/rankinglist', methods = ['POST'])
+
+@app.route('/ranking-page-store', methods = ['POST'])
 def create_ranking():
     location = request.form.get('location')
     bathrooms = request.form.get('bathrooms')
@@ -42,8 +43,7 @@ def create_ranking():
 
 
 
-
-@app.route('/loadingfactors', methods = ['POST'])
+@app.route('/loadingfactors-store', methods = ['POST'])
 def getloadingfactors():
 
     feature_importance = pd.DataFrame({'features': ['num__bedrooms', 'num__bathrooms', 'num__size', 'num__time_needed'], 
