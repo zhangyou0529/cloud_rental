@@ -1,0 +1,10 @@
+{
+  "resourceName": "rentaldynamodb",
+  "tableName": "tablerental",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import{useNavigateAction} from "@aws-amplify/ui-react/internal"
+import { API } from 'aws-amplify';
 
 export default function MyForm() {
   const [formData, setFormData] = useState({
@@ -11,20 +13,35 @@ export default function MyForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post("/ranking-page-store", formData)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
+
+    const apiName = 'cloudrentalapi'
+    const path = '/ranking-page-store'
+    
+    const getdata = async () => {
+      const response = await API.post(apiName, path, {
       });
-    axios.post("/loadingfactors-store", formData)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      console.log(response);
+      
+      
+    }
+    getdata()
+    alert(`The name you entered was:`);
+      
+
+    // axios.post("/ranking-page-store", formData)
+    //   .then((response) => {
+    //     console.log(response);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+    // axios.post("/loadingfactors-store", formData)
+    //   .then((response) => {
+    //     console.log(response);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   };
 
   const handleInputChange = (event) => {

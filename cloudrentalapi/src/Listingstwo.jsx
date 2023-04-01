@@ -14,33 +14,71 @@ import {
 import HeroLayout1 from "./HeroLayout1";
 import { Collection } from "@aws-amplify/ui-react";
 
-class Listing1 {
-  constructor(id, location, address, price, image_url, bedrooms, bathrooms, size, Name){
-    this.id = id;
-    this.location = location;
-    this.address = address;
-    this.price = price;
-    this.image_url = image_url;
-    this.bedrooms = bedrooms;
-    this.bathrooms = bathrooms;
-    this.size = size;
-    this.Name = Name;
-  }
-}
+
+const Listing1 = {
+  'id': "",
+  'location': "",
+  'address': "",
+  'price': "",
+  'image_url': "",
+  'bedrooms': "",
+  'bathrooms': "",
+  'size': "",
+  'Name': "",
+};
+
+// class Listing1 {
+//   constructor(id, location, address, price, image_url, bedrooms, bathrooms, size, Name){
+//     this.id = id;
+//     this.location = location;
+//     this.address = address;
+//     this.price = price;
+//     this.image_url = image_url;
+//     this.bedrooms = bedrooms;
+//     this.bathrooms = bathrooms;
+//     this.size = size;
+//     this.Name = Name;
+//   }
+// }
 
 export default function Listingstwo(props) {
 
   const {items: itemsProp, overrideItems, overrides, ...rest } = props;
   const [items, setItems] = React.useState([])
-  useEffect(() => {
-    fetch('/ranking-page-store')
-      .then(response => response.json())
-      .then(data => {
-        const items = data.map(item => new Listing1(item.id, item.location, item.address, item.price, item.image_url, item.bedrooms, item.bathrooms, item.size, item.Name));
-        setItems(items);
-      })
-      .catch(error => console.error(error))
-    }, []);
+  
+  // React.useEffect(() => {
+  //   fetch('/ranking-page-store')
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       const items = data.map(item => ({
+  //         id: item.id,
+  //         location: item.location,
+  //         address: item.address,
+  //         price: item.price,
+  //         image_url: item.image_url,
+  //         bedrooms: item.bedrooms,
+  //         bathrooms: item.bathrooms,
+  //         size: item.size,
+  //         Name: item.Name,
+  //       }));
+  //       setItems(items);
+  //     })
+  //     .catch(error => console.error(error))
+  // }, []);
+  React.useEffect(() => {
+    const items = {
+              'id': 'abc',
+              'location': 'abc',
+              'address': 'abc',
+              'price': 'abc',
+              'image_url': 'abc',
+              'bedrooms': 'abc',
+              'bathrooms': 'abc',
+              'size': 'abc',
+              'Name': 'abc',
+            };
+    setItems(items);
+  }, []);
 
   const itemsDataStore = useDataStoreBinding({
     type: "collection",
@@ -56,6 +94,7 @@ export default function Listingstwo(props) {
   }, [itemsProp, itemsDataStore]);
 
   return (
+
     <Collection
       type="list"
       isSearchable={true}

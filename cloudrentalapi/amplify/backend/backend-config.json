@@ -33,26 +33,12 @@
       "service": "Lambda"
     }
   },
-  "parameters": {
-    "AMPLIFY_function_cloudrentalapi_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "cloudrentalapi"
-        }
-      ]
-    },
-    "AMPLIFY_function_cloudrentalapi_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "cloudrentalapi"
-        }
-      ]
-    }
-  },
   "storage": {
     "cloudlistings": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "rentaldynamodb": {
       "providerPlugin": "awscloudformation",
       "service": "DynamoDB"
     }

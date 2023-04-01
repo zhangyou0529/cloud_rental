@@ -19,10 +19,30 @@
         "cloudrentalapi": {
           "deploymentBucketName": "amplify-cloudrentalapi-dev-211317-deployment",
           "s3Key": "amplify-builds/cloudrentalapi-347456657a6d33714e71-build.zip"
-        }
+        },
+        "cloudlistings": {}
       },
       "api": {
         "cloudrentallistapi": {}
+      }
+    }
+  },
+  "rentaldev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudrentalapi-rentaldev-204108-authRole",
+      "UnauthRoleArn": "arn:aws:iam::451660260372:role/amplify-cloudrentalapi-rentaldev-204108-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::451660260372:role/amplify-cloudrentalapi-rentaldev-204108-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cloudrentalapi-rentaldev-204108-deployment",
+      "UnauthRoleName": "amplify-cloudrentalapi-rentaldev-204108-unauthRole",
+      "StackName": "amplify-cloudrentalapi-rentaldev-204108",
+      "StackId": "arn:aws:cloudformation:us-east-1:451660260372:stack/amplify-cloudrentalapi-rentaldev-204108/d28e3740-cd65-11ed-bfb0-0ae82c9aa677",
+      "AmplifyAppId": "dgnnh2dev7wwb"
+    },
+    "categories": {
+      "function": {
+        "cloudrentalapi": {},
+        "cloudlistings": {}
       }
     }
   }
